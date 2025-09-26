@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.weather-day {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    width: 120px;
+}
+
+.weather-day h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.weather-day img {
+    width: 50px;
+    height: 50px;
+}
+
+.weather-day .temp {
+    font-size: 1rem;
+    color: #777;
+}
